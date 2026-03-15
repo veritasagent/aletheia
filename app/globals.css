@@ -1,0 +1,56 @@
+@import "@fontsource/sora/600.css";
+@import "@fontsource/sora/700.css";
+@import "@fontsource/sora/800.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #FAFAFB;
+  --s1: #FFFFFF;
+  --s2: #F9FAFB;
+  --s3: #F3F4F6;
+  --s4: #E5E7EB;
+  --gold: #D97706;
+  --grn: #059669;
+  --red: #DC2626;
+  --amb: #D97706;
+  --blu: #2563EB;
+  --t1: #111827;
+  --t2: #4B5563;
+  --t3: #9CA3AF;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  position: relative;
+  background: var(--bg);
+  color: var(--t1);
+  font-family: var(--font-inter), Inter, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-heading {
+  font-family: Sora, var(--font-inter), sans-serif;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+::selection {
+  background: rgba(212, 167, 79, 0.2);
+  color: #111827;
+}
