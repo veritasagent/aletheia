@@ -4,7 +4,7 @@ HACKANOVA 5.0 · Agentic AI Track · Team Bytes_and_Bros
 ALETHEIA is a real-time, tamper-proof misinformation intelligence dashboard and verification engine. It utilizes an autonomous pipeline (Go backend) powered by Gemini 2.5-flash to intercept, analyze, and cryptographically ledger digital claims across the web before they spread.
 
 ## Architecture Pipeline
-\`\`\`text
+
 [ Social Media / Web / Simulation Feed ]
            ↓
     ( Ingestion Engine )
@@ -18,7 +18,7 @@ ALETHEIA is a real-time, tamper-proof misinformation intelligence dashboard and 
   ( SSE Streaming API )
            ↓
 [ Next.js 14 Web Dashboard ] ← ( You are here )
-\`\`\`
+
 
 ## Quick Start
 1. Ensure the Go backend API is running correctly \`go run ./... --sandbox --web\`
